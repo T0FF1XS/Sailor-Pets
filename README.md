@@ -16,3 +16,11 @@
 - `sql/sailor_pets.sql` — Database tables, triggers at views
 - `assets/` — Bootstrap at product images
 
+### 3D Models
+
+Open a model on GitHub to rotate and zoom it in the interactive 3D viewer:
+
+- [Sensor node base](./sensor_node_base.stl)
+- [Sensor node battery base](./sensor_node_battery_base.stl)
+- [Sensor node battery lid](./sensor_node_battery_lid.stl)
+- [Sensor node lid](<./sensor_node_lid (1).stl>)
