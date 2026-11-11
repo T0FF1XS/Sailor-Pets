@@ -1,0 +1,41 @@
+:root {
+  --bs-body-bg: #F6F7F2;
+  --bs-body-color: #14241F;
+  --bs-body-font-family: 'DM Sans', system-ui, sans-serif;
+  --bs-border-color: #E2E8E1;
+  --bs-secondary-color: #66756F;
+  --bs-primary: #166B4B;
+  --bs-primary-rgb: 22, 107, 75;
+  --bs-link-color: #166B4B;
+  --bs-border-radius-xl: 1.25rem;
+  --bs-border-radius-xxl: 1.75rem;
+  --mint: #E3EEE6; --sky: #E6EEF7; --sand: #FBF3DC; --navy: #17375E; --gold: #D4A82E;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 150px; }
+.container { max-width: 1120px !important; }
+h1, h2, h3, h4, .brand { font-family: 'Bricolage Grotesque', system-ui, sans-serif; letter-spacing: -.02em; }
+.mono { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; }
+.btn-primary { --bs-btn-bg: #166B4B; --bs-btn-border-color: #166B4B; --bs-btn-hover-bg: #0F4F38; --bs-btn-hover-border-color: #0F4F38; --bs-btn-active-bg: #0F4F38; --bs-btn-active-border-color: #0F4F38; }
+.nav-pills { --bs-nav-link-color: #14241F; --bs-nav-pills-link-active-bg: #14241F; }
+.navbar .nav-pills .nav-link.active { color: #fff; }
+.accordion { --bs-accordion-bg: #fff; --bs-accordion-active-bg: #fff; --bs-accordion-active-color: #14241F; --bs-accordion-btn-focus-box-shadow: none; --bs-accordion-border-color: #E2E8E1; }
+.bg-mint { background: var(--mint); }
+.bg-navy { background: var(--navy); }
+.text-navy { color: var(--navy); }
+.text-gold { color: var(--gold); }
+.text-brand { color: #0F4F38; }
+.soft { background: linear-gradient(160deg, var(--mint), #EEF2EA 70%); }
+.grad-g { background: linear-gradient(135deg, #0F4F38, #1C8A60); }
+.grad-n { background: linear-gradient(135deg, #11294A, #1F4F86); }
+.tone-0 { background: var(--mint); color: #166B4B; }
+.tone-1 { background: var(--sky); color: #17375E; }
+.tone-2 { background: var(--sand); color: #9A7414; }
+.icon-box { width: 38px; height: 38px; flex: none; }
+.round-btn { width: 42px; height: 42px; padding: 0; }
+.banner { border-top: 5px dashed var(--gold); }
+body.staff .btn { border-radius: 50rem; font-weight: 700; }
+body.staff .card { border-radius: 1.25rem; overflow: hidden; }
+body.staff .table-light { --bs-table-bg: var(--mint); }
+body.staff .form-control, body.staff .form-select { border-radius: .75rem; }
+@media (min-width: 768px) { .search { width: 260px; } }
+.navbar.sticky-top { backdrop-filter: blur(10px); z-index: 1030; }
